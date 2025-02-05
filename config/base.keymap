@@ -206,7 +206,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 #define DSK_MGR     &kp LA(GRAVE)            // desktop manager
 #define VOL_DOWN    &hmr RSHFT C_VOL_DN
 
-// tap - space, shift-tap - return, hold - change layer 
+// tap - space, shift-tap - return, hold - change layer
 ZMK_HOLD_TAP(lt_spc_return,
     flavor = "balanced";
     tapping-term-ms = <200>;
@@ -257,7 +257,7 @@ ZMK_LAYER(fn,
 
 ZMK_LAYER(num,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp GRAVE     &kp HASH      &kp LBRC      &kp RBRC      &kp STAR        X_MT     &kp PLUS      &kp AMPS      &kp AT        &kp PIPE2     &kp NUBS        X_RT
+    X_LT     &kp GRAVE     &kp HASH      &kp LBRC      &kp RBRC      &kp STAR        X_MT     &kp PLUS      &kp AMPS      &kp AT        &kp PIPE     &kp BSLH        X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI EXCL &hml LALT CARET &hml LCTRL LPAR &hml LSHFT RPAR &kp DOLLAR X_MM   &kp APOS      &hmr RSHFT DQT &hmr LCTRL EQUAL &hmr LALT COLON &hmr LGUI SEMI X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
