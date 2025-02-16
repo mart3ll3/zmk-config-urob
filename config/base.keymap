@@ -261,7 +261,7 @@ ZMK_LAYER(num,
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI EXCL &hml LALT CARET &hml LCTRL LPAR &hml LSHFT RPAR &kp DOLLAR X_MM   &kp APOS      &hmr RSHFT DQT &hmr LCTRL EQUAL &hmr LALT COLON &hmr LGUI SEMI X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp TILDE     &kp SLASH     &kp LBKT      &kp RBKT      &kp PERCENT     X_MB     &kp UNDER     &kp AMPS      &kp AT        &kp QMARK       &kp PIPE     X_RB
+    X_LB     &kp TILDE     &kp SLASH     &kp LBKT      &kp RBKT      &kp PERCENT     X_MB     &kp AMPS      &kp UNDER     &kp AT        &kp QMARK       &kp PIPE     X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               ___           &mo MOUSE       X_MH     ___           ___                                                       X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
