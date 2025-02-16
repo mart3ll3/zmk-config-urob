@@ -257,11 +257,11 @@ ZMK_LAYER(fn,
 
 ZMK_LAYER(num,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp GRAVE     &kp HASH      &kp LBRC      &kp RBRC      &kp STAR        X_MT     &kp PLUS      &kp AMPS      &kp AT        &kp PIPE     &kp BSLH        X_RT
+    X_LT     &kp GRAVE     &kp HASH      &kp LBRC      &kp RBRC      &kp STAR        X_MT     &kp PLUS      &kp GT         &kp MINUS    &kp LT        &kp BSLH        X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI EXCL &hml LALT CARET &hml LCTRL LPAR &hml LSHFT RPAR &kp DOLLAR X_MM   &kp APOS      &hmr RSHFT DQT &hmr LCTRL EQUAL &hmr LALT COLON &hmr LGUI SEMI X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp TILDE     &kp SLASH     &kp LBKT      &kp RBKT      &kp PERCENT     X_MB     &kp UNDER     &kp GT         &kp MINUS    &kp LT        &kp QMARK       X_RB
+    X_LB     &kp TILDE     &kp SLASH     &kp LBKT      &kp RBKT      &kp PERCENT     X_MB     &kp UNDER     &kp AMPS      &kp AT        &kp QMARK       &kp PIPE     X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               ___           &mo MOUSE       X_MH     ___           ___                                                       X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
