@@ -31,6 +31,7 @@ ZMK_COMBO(bspc,   &kp BSPC,      RH0 RH1,     DEF NAV NUM, COMBO_TERM_FAST, COMB
 
 /* [> Horizontal combos - right hand <] */
 ZMK_COMBO(tab,  &kp TAB,     LH0 LH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(tab2,  &kp TAB,     LM0 LM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* ZMK_COMBO(del,   &kp DEL,      RT2 RT3,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 
 /* ZMK_COMBO(lpar,  &lpar_lt,     RM1 RM2,     DEF     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL),    KEYS_L) */
