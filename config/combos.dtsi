@@ -15,6 +15,7 @@
 
 /* Horizontal combos - left hand */
 ZMK_COMBO(bspc,   &kp BSPC,      RH0 RH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(bspc2,   &kp BSPC,      RM0 RM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* ZMK_COMBO(ret,   &kp RETURN,   LT2 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 /* ZMK_COMBO(mouse, &smart_mouse, LT3 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 
