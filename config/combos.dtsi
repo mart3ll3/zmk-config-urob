@@ -14,7 +14,7 @@
 #define COMBO_IDLE_SLOW 50
 
 /* Horizontal combos - left hand */
-ZMK_COMBO(esc,   &kp LCTRL,      RH0 RH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(bspc,   &kp BSPC,      RH0 RH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* ZMK_COMBO(ret,   &kp RETURN,   LT2 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 /* ZMK_COMBO(mouse, &smart_mouse, LT3 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 
@@ -30,7 +30,7 @@ ZMK_COMBO(esc,   &kp LCTRL,      RH0 RH1,     DEF NAV NUM, COMBO_TERM_FAST, COMB
 /* ZMK_COMBO(paste, &kp LS(INS),  LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 
 /* [> Horizontal combos - right hand <] */
-ZMK_COMBO(bspc,  &kp LALT,     LH0 LH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(tab,  &kp TAB,     LH0 LH1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* ZMK_COMBO(del,   &kp DEL,      RT2 RT3,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
 
 /* ZMK_COMBO(lpar,  &lpar_lt,     RM1 RM2,     DEF     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL),    KEYS_L) */

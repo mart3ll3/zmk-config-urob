@@ -57,7 +57,7 @@
         flavor = "balanced"; \
         tapping-term-ms = <280>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
-        require-prior-idle-ms = <150>; \
+        require-prior-idle-ms = <175>; \
         bindings = <HOLD>, <TAP>; \
         hold-trigger-key-positions = <TRIGGER_POS>; \
         hold-trigger-on-release; \
@@ -227,7 +227,7 @@ ZMK_LAYER(base,
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LB     &kp Z         &kp X         &kp C         &kp D         &kp V           X_MB     &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH        X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               &lt FN TAB    &smart_shft     X_MH     &lt NAV SPACE  &mo NUM                                                X_RH
+    X_LH                                               &mo FN       &smart_shft     X_MH     &lt NAV SPACE  &mo NUM                                                X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
 
